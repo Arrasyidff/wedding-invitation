@@ -1,0 +1,1 @@
+export {default as AghniyaIzzul} from './aghniyaIzzul/AghniyaIzzul'
