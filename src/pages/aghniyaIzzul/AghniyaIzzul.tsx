@@ -24,6 +24,21 @@ function AghniyaIzzul() {
           <h1 className='questrial-regular fade-in-top'>24.12.2024</h1>
         </div>
       </section>
+
+      <section className='aghniya__opening'>
+        <p className='fade-in-top'>
+          “Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
+          pasangan-pasangan untukmu dari jenis kamu sendiri, supaya kamu
+          cenderung dan merasa tenteram kepadanya, dan Dia menjadikan
+          di antaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian
+          itu benar-benar terdapat tanda-tanda bagi kaum yang berpikir.”
+          <br />
+          <br />
+          QS Ar-Rum 21.
+        </p>
+        <img className='elemet-rose rotate-center' src={rose} alt="rose" />
+        <img className='elemet-rose rotate-center' src={rose} alt="rose" />
+      </section>
     </div>
   )
 }
