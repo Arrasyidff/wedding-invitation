@@ -1,14 +1,14 @@
 .agniya__container {
     background: #ffffff;
-    color: #000000;
+    color: #3a3939;
     font-size: 1.5rem;
     text-align: center;
-    // padding: 1rem;
+    overflow: hidden;
 
     .aghniya__top-rose {
         display: flex;
         justify-content: space-between;
-        overflow: hidden;
+        // overflow: hidden;
 
         img {
             opacity: 0.4;
@@ -26,7 +26,6 @@
     }
 
     section {
-        overflow: hidden;
         height: 100vh;
     }
 
@@ -73,11 +72,6 @@
                     opacity: .5;
                 }
             }
-
-            .questrial-regular {
-                font-size: 2rem;
-            }
-
             .element-img {
                 position: absolute;
                 width: 7.5rem;
@@ -96,8 +90,9 @@
     }
 
     .aghniya__opening {
-        position: relative;
         overflow: hidden;
+        padding: 0 2.2rem;
+        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -106,23 +101,21 @@
             position: relative;
             z-index: 100;
             text-align: center;
-            font-size: 1.5rem;
-            padding: 0 1.7rem;
         }
         .elemet-rose {
             z-index: 1;
-            width: 20%;
             position: absolute;
-            width: 130%;
             opacity: 0.4;
 
             &:nth-of-type(1) {
                 top: 0;
-                margin-top: -9rem;
+                margin-top: -10rem;
                 margin-left: -9rem;
                 transform: scale(-1);
+                width: 130%;
             }
             &:nth-of-type(2) {
+                width: 130%;
                 bottom: 0;
                 right: 0;
                 margin-bottom: -9rem;
@@ -132,6 +125,7 @@
     }
 
     .aghniya__bride {
+        padding: 0 2.2rem;
         position: relative;
         overflow: hidden;
         flex-direction: column;
@@ -176,7 +170,6 @@
         }
 
         p {
-            width: 20rem;
             z-index: 2;
             position: relative;
         }
@@ -184,7 +177,8 @@
             margin-top: 1rem;
         }
         .aghniya__bride--description {
-            height: 40%;
+            font-size: 1.5rem;
+            // height: 40%;
             margin-top: 1rem;
         }
     }
