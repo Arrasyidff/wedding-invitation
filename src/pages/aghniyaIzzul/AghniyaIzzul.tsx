@@ -12,7 +12,7 @@ import loveSeparator from '@assets/images/love-separator.png'
 function AghniyaIzzul() {
   return (
     <div className='agniya__container'>
-      {/* <img className='agniya--background' src={bg} alt="" /> */}
+      <img className='agniya--background' src={bg} alt="" />
       <section className='aghniya__cover'>
         <div className='aghniya__cover-text'>
           <h3>The Wedding Of</h3>
