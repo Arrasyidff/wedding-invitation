@@ -1,0 +1,47 @@
+.aghniya__quote {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .agniya__quote-cover {
+        height: 90vh;
+        width: 100%;
+        border-top-left-radius: 13.125rem;
+        border-top-right-radius: 13.125rem;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        padding: 2.5rem;
+
+        .agniya__quote-content {
+            border: 1px solid black;
+            height: 80%;
+            width: 100%;
+            border-radius: 13.125rem;
+
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 2.9rem;
+            img {
+                width: 2rem;
+            }
+
+            text-align: center;
+            font-size: 0.875rem;
+            .agniya__quote--du-a {
+                margin-top: 2rem;
+                font-weight: 800;
+            }
+            .agniya__quote--translate {
+                margin-top: 1.8rem;
+            }
+            .agniya__quote--surah {
+                margin-top: 1.8rem;
+                font-weight: 800;
+            }
+        }
+    }
+}

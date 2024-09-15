@@ -16,9 +16,9 @@
     }
 
     .aghniya__cover-content {
-        width: 16rem;
-        height: 23rem;
-        margin: 1.875rem auto;
+        width: 14.5rem;
+        height: 21.5rem;
+        margin: 1.9rem auto;
         border-radius: 9rem;
         border: 1px solid black;
     }
@@ -41,7 +41,7 @@
     .agniya__cover-open {
         margin-top: 1.875rem;
         font-size: 0.938rem;
-        font-weight: 50rem;
+        font-weight: 800;
         line-height: 0.938rem;
         letter-spacing: -0.014rem;
         color: white;
@@ -56,12 +56,14 @@
     .aghniya__cover {
         .aghniya__cover-header {
             h2 {
-                margin-top: 3rem;
+                margin-top: 4rem;
             }
         }
 
         .aghniya__cover-content {
-            width: 15rem;
+            width: 12rem;
+            height: 19rem;
+            margin: 1.5rem auto;
         }
     }
 }
@@ -69,10 +71,27 @@
 @media (min-width: 375px)
 {
     .aghniya__cover {
+        .aghniya__cover-header {
+            h2 {
+                margin-top: 2.5rem;
+            }
+        }
+
         .aghniya__cover-content {
-            width: 13rem;
+            width: 12.5rem;
             height: 20rem;
-            margin: 1.3rem auto;
+            margin: 1.1rem auto;
+        }
+    }
+}
+
+@media (min-width: 375px) and (min-height: 800px) and (max-height: 850px)
+{
+    .aghniya__cover {
+        .aghniya__cover-header {
+            h2 {
+                margin-top: 7rem;
+            }
         }
     }
 }
@@ -99,8 +118,14 @@
     .aghniya__cover {
         .aghniya__cover-header {
             h2 {
-                margin-top: 2.8rem;
+                margin-top: 3.5rem;
             }
+        }
+
+        .aghniya__cover-content {
+            width: 13.5rem;
+            height: 21.5rem;
+            margin: 1.3rem auto;
         }
     }
 }
@@ -148,15 +173,37 @@
 {
     .aghniya__cover {
         .aghniya__cover-header {
+            line-height: 1.875rem;
             h2 {
-                margin-top: 9rem;
+                margin-top: 8.5rem;
+                font-size: 2rem;
+            }
+            p {
+                font-size: 0.9rem;
             }
         }
-
+    
         .aghniya__cover-content {
-            width: 18.5rem;
-            height: 28.5rem;
-            margin: 2rem auto;
+            width: 16rem;
+            height: 25rem;
+        }
+    
+        .aghniya__cover-invitation {
+            line-height: 1.875rem;
+            span {
+                font-size: 0.9rem;
+            }
+            h1 {
+                font-size: 2rem;
+                margin: 1rem auto;
+            }
+        }
+    
+        .agniya__cover-open {
+            font-size: 1.1rem;
+            font-weight: 800;
+            width: 11rem;
+            height: 3rem;
         }
     }
 }
