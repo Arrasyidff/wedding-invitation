@@ -5,7 +5,6 @@ function Cover() {
     <section className='aghniya__cover'>
         <div className="aghniya__cover-header">
             <h2>SAVE THE DATE</h2>
-            {window.innerWidth} x {window.innerHeight}
             <p>FOR THE WEDDING OF</p>
         </div>
 
