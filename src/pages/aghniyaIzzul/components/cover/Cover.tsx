@@ -5,6 +5,7 @@ function Cover() {
     <section className='aghniya__cover'>
         <div className="aghniya__cover-header">
             <h2>SAVE THE DATE</h2>
+            {window.innerWidth}
             <p>FOR THE WEDDING OF</p>
         </div>
 
