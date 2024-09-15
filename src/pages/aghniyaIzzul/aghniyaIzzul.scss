@@ -1,6 +1,17 @@
 .agniya__container {
     section {
-        min-height: 100vh;
+        padding: 3.5rem 0;
         overflow: hidden;
+    }
+}
+
+@media (min-height: 800px)
+{
+    .agniya__container {
+        section {
+            padding: 0;
+            min-height: 100vh;
+            overflow: hidden;
+        }
     }
 }

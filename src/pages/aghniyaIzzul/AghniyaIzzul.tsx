@@ -5,7 +5,7 @@ function AghniyaIzzul() {
   return (
     <div className='agniya__container'>
       <Cover />
-      <Quote />
+      {/* <Quote /> */}
     </div>
   )
 }
