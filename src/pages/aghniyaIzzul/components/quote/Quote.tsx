@@ -1,12 +1,12 @@
 import './quote.scss'
-import quote from '@assets/images/quote.png'
+// import quote from '@assets/images/quote.png'
 
 function Quote() {
   return (
     <section className='aghniya__quote'>
         <div className="agniya__quote-cover">
             <div className="agniya__quote-content">
-                <img src={quote} alt="quote" />
+                {/* <img src={quote} alt="quote" />
 
                 <p className='agniya__quote--du-a'>
                   wa min âyâtihî an khalaqa lakum min 
@@ -27,7 +27,7 @@ function Quote() {
 
                 <p className='agniya__quote--surah'>
                   (Ar-Rum · Ayat 21)
-                </p>
+                </p> */}
             </div>
         </div>
     </section>
