@@ -7,24 +7,24 @@
     .agniya__quote-cover {
         height: 90vh;
         width: 100%;
-        border-top-left-radius: 13.125rem;
-        border-top-right-radius: 13.125rem;
-        border: 1px solid black;
+        border-top-left-radius: 12rem;
+        border-top-right-radius: 12rem;
         display: flex;
         justify-content: center;
-        padding: 2.5rem;
+        padding: 2rem;
+        border: 1px solid black;
 
         .agniya__quote-content {
             border: 1px solid black;
             height: 80%;
             width: 100%;
-            border-radius: 13.125rem;
+            border-radius: 12rem;
 
             flex-direction: column;
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 0 2.9rem;
+            padding: 0 1.5rem;
             img {
                 width: 2rem;
             }
@@ -41,6 +41,64 @@
             .agniya__quote--surah {
                 margin-top: 1.8rem;
                 font-weight: 800;
+            }
+        }
+    }
+}
+
+@media (min-width: 360px)
+{
+    .aghniya__quote {
+        .agniya__quote-cover {
+            border-top-left-radius: 20rem;
+            border-top-right-radius: 20rem;
+            padding: 2rem;
+
+            .agniya__quote-content {
+                border-radius: 20rem;
+            }
+        }
+    }
+}
+
+@media (min-width: 375px)
+{
+    .aghniya__quote {
+        .agniya__quote-cover {
+            height: 92vh;
+            border-top-left-radius: 12rem;
+            border-top-right-radius: 12rem;
+            padding: 2rem;
+
+            .agniya__quote-content {
+                border-radius: 12rem;
+                height: 85%;
+            }
+        }
+    }
+}
+
+@media (min-width: 390px)
+{
+    .aghniya__quote {
+        .agniya__quote-cover {
+            height: 90vh;
+            .agniya__quote-content {
+                height: 75%;
+            }
+        }
+    }
+}
+
+@media (min-width: 412px)
+{
+    .aghniya__quote {
+        .agniya__quote-cover {
+            height: 90vh;
+            
+            .agniya__quote-content {
+                padding: 3rem;
+                height: 75%;
             }
         }
     }
