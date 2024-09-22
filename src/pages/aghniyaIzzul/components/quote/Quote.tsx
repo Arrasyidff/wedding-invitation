@@ -3,7 +3,7 @@ import './quote.scss'
 
 function Quote() {
   return (
-    <section className='aghniya__quote'>
+    <section className='agniya__quote'>
         <div className="agniya__quote-cover">
             <div className="agniya__quote-content">
                 {/* <img src={quote} alt="quote" /> */}

@@ -1,4 +1,4 @@
-.aghniya__cover {
+.agniya__cover {
     text-align: center;
     flex-direction: column;
     display: flex;
@@ -6,7 +6,7 @@
     align-items: center;
     height: 100vh;
 
-    .aghniya__cover-header {
+    .agniya__cover-header {
         font-weight: 800;
         color: #000000;
         line-height: 1.25rem;
@@ -19,7 +19,7 @@
         }
     }
 
-    .aghniya__cover-content {
+    .agniya__cover-content {
         width: 11.875rem;
         height: 18.125rem;
         border-radius: 7.5rem;
@@ -27,7 +27,7 @@
         margin: 1.5rem auto;
     }
 
-    .aghniya__cover-invitation {
+    .agniya__cover-invitation {
         flex-direction: column;
         display: flex;
         letter-spacing: 0.25rem;
@@ -57,8 +57,8 @@
 
 @media (min-height: 800px)
 {
-    .aghniya__cover {
-        .aghniya__cover-content {
+    .agniya__cover {
+        .agniya__cover-content {
             width: 13.125rem;
             height: 20.625rem;
             margin: 2rem auto;

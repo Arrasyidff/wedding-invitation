@@ -2,16 +2,16 @@ import './cover.scss'
 
 function Cover() {
   return (
-    <section className='aghniya__cover'>
-        <div className="aghniya__cover-header">
+    <section className='agniya__cover'>
+        <div className="agniya__cover-header">
             <h2>SAVE THE DATE</h2>
             <p>FOR THE WEDDING OF</p>
         </div>
 
-        <div className='aghniya__cover-content'>
+        <div className='agniya__cover-content'>
         </div>
 
-        <div className='aghniya__cover-invitation'>
+        <div className='agniya__cover-invitation'>
             <span>KEPADA YTH.</span>
             <span>BAPAK/IBU/SAUDARA/I</span>
             <h1>BPK. ANDRE</h1>

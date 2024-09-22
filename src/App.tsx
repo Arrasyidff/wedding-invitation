@@ -1,9 +1,9 @@
-import {AghniyaIzzul} from '@pages/index'
+import {AgniyaIzzul} from '@pages/index'
 
 function App() {
   return (
     <>
-      <AghniyaIzzul />
+      <AgniyaIzzul />
     </>
   );
 }
