@@ -6,6 +6,7 @@ function Quote() {
     <section className='aghniya__quote'>
         <div className="agniya__quote-cover">
             <div className="agniya__quote-content">
+                {window.innerHeight} x {window.innerWidth}
                 {/* <img src={quote} alt="quote" /> */}
 
                 {/* <p className='agniya__quote--du-a'>
