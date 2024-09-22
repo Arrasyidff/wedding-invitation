@@ -1,12 +1,11 @@
 .aghniya__cover {
-    padding: 3.5rem 0;
     text-align: center;
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 
-    
     .aghniya__cover-header {
         font-weight: 800;
         color: #000000;
@@ -21,11 +20,11 @@
     }
 
     .aghniya__cover-content {
-        width: 250px;
-        height: 400px;
-        border-radius: 120px;
+        width: 11.875rem;
+        height: 18.125rem;
+        border-radius: 7.5rem;
         border: 1px solid black;
-        margin: 1.9rem auto;
+        margin: 1.5rem auto;
     }
 
     .aghniya__cover-invitation {
@@ -59,7 +58,10 @@
 @media (min-height: 800px)
 {
     .aghniya__cover {
-        padding: 0;
-        min-height: 100vh;
+        .aghniya__cover-content {
+            width: 13.125rem;
+            height: 20.625rem;
+            margin: 2rem auto;
+        }
     }
 }
