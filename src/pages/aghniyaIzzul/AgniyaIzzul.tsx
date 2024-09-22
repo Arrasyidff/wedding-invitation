@@ -1,5 +1,5 @@
 import './agniyaIzzul.scss'
-import { Cover, Quote, Bride } from './components'
+import { Cover, Quote, Bride, Detail } from './components'
 
 function agniyaIzzul() {
   return (
@@ -7,6 +7,7 @@ function agniyaIzzul() {
       <Cover />
       <Quote />
       <Bride />
+      <Detail />
     </div>
   )
 }

@@ -1,0 +1,19 @@
+.agniya__detail {
+    height: 800px;
+    padding: 5rem 3rem 0 3rem;
+
+    .agniya__detail-cover {
+        border: 1px solid black;
+        height: 100%;
+        border-top-left-radius: 220px;
+        border-top-right-radius: 220px;
+        border-bottom: 1px solid white;
+    }
+}
+
+@media (min-height: 740px)
+{
+    .agniya__detail {
+        height: 100vh;
+    }
+}
