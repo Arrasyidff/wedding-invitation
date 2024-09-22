@@ -1,0 +1,60 @@
+.agniya__galery {
+    min-height: 800px;
+    padding: 2rem;
+
+    .agniya__galery-header {
+        text-align: center;
+        height: 7.5rem;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.25rem;
+
+        h1 {
+            letter-spacing: 0.25rem;
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 0.688rem;
+            letter-spacing: 0.25rem;
+        }
+    }
+
+    .agniya__gallery-photo {
+        .photo-1, .photo-2, .photo-3 {
+            margin-bottom: 0.813rem;
+        }
+        .photo-1 {
+            border: 1px solid black;
+            height: 13.438rem;
+            width: 100%;
+        }
+        .photo-3 {
+            display: grid;
+            grid-gap: 0.813rem;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 5.188rem;
+            div {
+                border: 1px solid black;
+            }
+        }
+        .photo-2 {
+            display: grid;
+            grid-gap: 0.813rem;
+            grid-template-columns: repeat(2, 1fr);
+            grid-auto-rows: 8.813rem;
+            div {
+                border: 1px solid black;
+            }
+        }
+    }
+}
+
+@media (min-height: 740px)
+{
+    .agniya__galery {
+        min-height: 100vh;
+    }
+}
