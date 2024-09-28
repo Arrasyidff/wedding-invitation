@@ -20,11 +20,17 @@
     }
 
     .agniya__cover-content {
-        width: 11.875rem;
-        height: 18.125rem;
+        width: 205px;
+        height: 310px;
         border-radius: 7.5rem;
-        border: 1px solid black;
         margin: 1.5rem auto;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            height: 100%;
+        }
     }
 
     .agniya__cover-invitation {
@@ -59,8 +65,8 @@
 {
     .agniya__cover {
         .agniya__cover-content {
-            width: 13.125rem;
-            height: 20.625rem;
+            width: 250px;
+            height: 380px;
             margin: 2rem auto;
         }
     }

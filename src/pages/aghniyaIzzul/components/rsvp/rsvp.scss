@@ -1,0 +1,23 @@
+.agniya__rsvp {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+    .agniya__rsvp--title {
+        text-align: center;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 4px;
+    }
+
+    .agniya__rsvp--description {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: -0.23px;
+        width: 295px;
+    }
+}

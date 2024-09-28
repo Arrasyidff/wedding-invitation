@@ -2,5 +2,9 @@
     section {
         overflow: hidden;
         border: 1px solid red;
+        background-image: url('../../assets/images/background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }

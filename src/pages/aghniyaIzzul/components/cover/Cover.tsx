@@ -1,4 +1,5 @@
 import './cover.scss'
+import coverImg from '@assets/images/cover-img.png'
 
 function Cover() {
   return (
@@ -9,6 +10,7 @@ function Cover() {
         </div>
 
         <div className='agniya__cover-content'>
+          <img src={coverImg} alt="cover-image" />
         </div>
 
         <div className='agniya__cover-invitation'>
