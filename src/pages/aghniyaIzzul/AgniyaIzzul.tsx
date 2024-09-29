@@ -1,5 +1,7 @@
 import './agniyaIzzul.scss'
-import { Cover, Quote, Bride, Detail, Gallery, Rsvp } from './components'
+import { Cover, Quote
+  // , Bride, Detail, Gallery, Rsvp 
+} from './components'
 
 function agniyaIzzul() {
   return (
