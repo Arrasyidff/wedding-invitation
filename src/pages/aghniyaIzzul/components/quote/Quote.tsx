@@ -1,12 +1,14 @@
 import './quote.scss'
 import quote from '@assets/images/quote.png'
-// import brideImage from '@assets/images/bride-image.png'
-import backgroundImage from '@assets/images/main-background.png'
+import brideImage from '@assets/images/bride-image.png'
+import contentBackground from '@assets/images/content-background.png'
 
 function Quote() {
   return (
     <section className='agniya__quote'>
-      <img className='agniya__quote-background' src={backgroundImage} alt="" />
+      <img className='agniya--cover-background' src={contentBackground} alt="" />
+      <img className='agniya--bride-background' src={brideImage} alt=""/>
+
       <div className="agniya__quote-cover">
           <div className="agniya__quote-content">
               <img src={quote} alt="quote" />
