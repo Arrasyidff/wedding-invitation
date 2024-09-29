@@ -4,11 +4,20 @@
     justify-content: center;
     align-items: center;
     height: 800px;
+    position: relative;
+
+    .agniya__quote-background {
+        position: absolute;
+        z-index: 1;
+        height: 100%;
+        width: 100%;
+    }
 
     .agniya__quote-cover {
+        box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+        z-index: 2;
         border-radius: 13.75rem;
         width: 100%;
-        border: 5px solid black;
         border-bottom: none;
         border-left: none;
         border-right: none;
@@ -16,36 +25,41 @@
 
         display: flex;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         padding: 2.5rem;
 
         .agniya__quote-content {
-            border: 1px solid black;
+            box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+            border: 1px solid white;
             width: 100%;
             height: 95%;
             border-radius: 13.75rem;
-            padding: 0 3rem;
 
             flex-direction: column;
             display: flex;
             justify-content: center;
             align-items: center;
+            padding: 2rem;
             
             img {
-                width: 2rem;
+                width: 1.3rem;
+            }
+
+            p {
+                text-align: center;
             }
 
             text-align: center;
             font-size: 0.875rem;
             .agniya__quote--du-a {
-                margin-top: 2rem;
+                margin-top: 1.3rem;
                 font-weight: 800;
             }
             .agniya__quote--translate {
-                margin-top: 1.8rem;
+                margin-top: 1.3rem;
             }
             .agniya__quote--surah {
-                margin-top: 1.8rem;
+                margin-top: 1.3rem;
                 font-weight: 800;
             }
         }
@@ -60,6 +74,17 @@
 
         .agniya__quote-cover {
             height: 80%;
+        }
+    }
+}
+
+@media (min-height: 800px)
+{
+    .agniya__quote {
+        .agniya__quote-cover {
+            .agniya__quote-content {
+                padding: 2.8rem;
+            }
         }
     }
 }
