@@ -6,10 +6,13 @@ function agniyaIzzul() {
     <div className='agniya__container'>
       <Cover />
       <Quote />
-      <Bride />
+      {/* <Bride />
       <Detail />
       <Gallery />
-      <Rsvp />
+      <Rsvp /> */}
+      <div className='agniya--navigation'>
+        TEXT
+      </div>
     </div>
   )
 }
