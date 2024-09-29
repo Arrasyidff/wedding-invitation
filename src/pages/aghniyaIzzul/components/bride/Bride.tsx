@@ -1,25 +1,31 @@
 import './bride.scss'
+import contentBackground from '@assets/images/content-background.png'
+import coverImg from '@assets/images/cover-img.png'
 
 function Bride() {
   return (
     <section className='agniya__bride'>
-        <div className='agniya__bride-container'>
-            <div className="agniya__bride-image">
-            </div>
+      <img className='agniya--cover-background' src={contentBackground} alt="" />
 
-            <p className='agniya__bride-name'>Agjniyarrizqi Iara Fadhilla</p>
-            <p className='agniya__bride-description'>Putri dari Bapak Mukhlis Wahyudin dan Ibu Sri Utami</p>
+      <div className='agniya__bride-container'>
+        <div className="agniya__bride-image">
+          <img className='agniya__bride-image' src={coverImg} alt="" />
         </div>
 
-        <p className='agniya__bride--separator'>and</p>
+        <p className='agniya__bride-name'>Agjniyarrizqi Iara Fadhilla</p>
+        <p className='agniya__bride-description'>Putri dari Bapak Mukhlis Wahyudin dan Ibu Sri Utami</p>
+      </div>
 
-        <div className='agniya__bride-container'>
-            <div className="agniya__bride-image">
-            </div>
+      <p className='agniya__bride--separator'>and</p>
 
-            <p className='agniya__bride-name'>Agjniyarrizqi Iara Fadhilla</p>
-            <p className='agniya__bride-description'>Putri dari Bapak Mukhlis Wahyudin dan Ibu Sri Utami</p>
+      <div className='agniya__bride-container'>
+        <div className="agniya__bride-image">
+          <img className='agniya__bride-image' src={coverImg} alt="" />
         </div>
+
+        <p className='agniya__bride-name'>Agjniyarrizqi Iara Fadhilla</p>
+        <p className='agniya__bride-description'>Putri dari Bapak Mukhlis Wahyudin dan Ibu Sri Utami</p>
+      </div>
     </section>
   )
 }

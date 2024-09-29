@@ -6,6 +6,7 @@
     align-items: center;
 
     .agniya__bride-container {
+        z-index: 3;
         flex-direction: column;
         display: flex;
         justify-content: center;
@@ -13,28 +14,30 @@
         text-align: center;
 
         .agniya__bride-image {
-            width: 12.5rem;
+            width: 100%;
             height: 20rem;
-            border: 1px solid black;
-            border-radius: 7.5rem;
+            img {
+                height: 100%;
+            }
         }
         
         letter-spacing: -0.014rem;
         .agniya__bride-name {
-            margin-top: 1.25rem;
-            line-height: 2.563rem;
+            margin-top: 1.2rem;
             font-family: "Pinyon Script", cursive;
             font-size: 1.5rem;
             font-weight: 400;
         }
         
         .agniya__bride-description {
+            margin-top: .2rem;
             font-size: 0.75rem;
             width: 12.875rem;
         }
     }
 
     .agniya__bride--separator {
+        z-index: 3;
         line-height: 2.563rem;
         font-family: "Pinyon Script", cursive;
         font-size: 2rem;

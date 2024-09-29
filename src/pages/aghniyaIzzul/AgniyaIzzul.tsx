@@ -1,6 +1,6 @@
 import './agniyaIzzul.scss'
-import { Cover, Quote
-  // , Bride, Detail, Gallery, Rsvp 
+import { Cover, Quote, Bride,
+  // Detail, Gallery, Rsvp 
 } from './components'
 
 function agniyaIzzul() {
@@ -8,8 +8,8 @@ function agniyaIzzul() {
     <div className='agniya__container'>
       <Cover />
       <Quote />
-      {/* <Bride />
-      <Detail />
+      <Bride />
+      {/* <Detail />
       <Gallery />
       <Rsvp /> */}
       <div className='agniya--navigation'>
